@@ -158,7 +158,7 @@ blockquote{
 }
 
 blockquote>h6,
-blockquote>div,
+blockquote>iframe,
 blockquote>p{
     display: none;
 }
@@ -175,9 +175,9 @@ blockquote:focus{
   letter-spacing: 1px;
 }
 
-.vid-plug{
+iframe{
   width: 400px;
-padding: 15px;
+padding: 15px #ffffff;
   border: 1px double #ffffff;
 }
 
