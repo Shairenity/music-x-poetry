@@ -157,7 +157,7 @@ blockquote{
 }
 
 blockquote>h6,
-blockquote>iframe,
+blockquote>.vid-plug,
 blockquote>p{
     display: none;
 }
