@@ -154,7 +154,6 @@ blockquote{
     margin: 1%;
     display: block;
     text-align: center;
-    align-items: center;
 }
 
 blockquote>h6,
@@ -176,9 +175,8 @@ blockquote:focus{
 }
 
 iframe{
-  width: 400px;
-padding: 15px #ffffff;
-  border: 1px double #ffffff;
+  width:300px;
+  border: 3px solid #ffffff;
 }
 
 
