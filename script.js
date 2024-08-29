@@ -37,7 +37,7 @@ if (screen.matches) {
 }
 
 let detailsOpenLar = document.querySelectorAll(".details")
-let screenLar = window.matchMedia("(min-width: 769px)");
+let screenLar = window.matchMedia("(min-width: 900px)");
 if (screenLar.matches) {
   detailsOpenLar.forEach(detailsOpenLar => { detailsOpenLar.open = true });
 }
