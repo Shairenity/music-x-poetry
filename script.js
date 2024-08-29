@@ -31,7 +31,7 @@ for (let i = 0; i < block.length; i++) {
 }
 
 let detailsOpen = document.querySelectorAll(".subdetails")
-let screen = window.matchMedia("(max-width: 860px)");
+let screen = window.matchMedia("(max-width: 890px)");
 if (screen.matches) {
   detailsOpen.forEach(detailsOpen => { detailsOpen.open = true });
 }
