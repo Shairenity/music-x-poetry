@@ -174,9 +174,10 @@ blockquote:focus{
   letter-spacing: 1px;
 }
 
-iframe{
-  width:300px;
-  border: 3px solid #ffffff;
+.vid-plug{
+  width: 300px;
+padding: 15px;
+  border: 1px double #ffffff;
 }
 
 
