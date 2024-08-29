@@ -154,6 +154,7 @@ blockquote{
     margin: 1%;
     display: block;
     text-align: center;
+    align-items: center;
 }
 
 blockquote>h6,
@@ -175,7 +176,7 @@ blockquote:focus{
 }
 
 .vid-plug{
-  width: 300px;
+  width: 400px;
 padding: 15px;
   border: 1px double #ffffff;
 }
