@@ -238,7 +238,7 @@ text-align: left;
 font-size: .75rem;
 }
 
-          /*styles when max width 720px*/
+          /*styles when max width 768px*/
 
 @media screen and (max-width: 768px) {
   /*navigation*/
@@ -288,6 +288,7 @@ font-size: .75rem;
     width: 23px;
   }
 }
+          /*styles for reduced motion*/
 
 @media (prefers-reduced-motion: reduce){
   html{
@@ -295,6 +296,7 @@ font-size: .75rem;
   }
 }
 
+          /*styles for dark mode*/
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -321,6 +323,5 @@ font-size: .75rem;
   .subdetails[open] > summary,
   .subdetails > .subcredits{
     color: #f7f3eb !important;
-  }
-  
+  } 
 }
